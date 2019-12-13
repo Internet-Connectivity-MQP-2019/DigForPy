@@ -1,0 +1,35 @@
+
+; <<>> DiG 9.10.6 <<>> www.google.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59489
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 4, ADDITIONAL: 9
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;www.google.com.            IN  A
+
+;; ANSWER SECTION:
+www.google.com.     23  IN  A   69.171.247.71
+
+;; AUTHORITY SECTION:
+google.com.     124333  IN  NS  ns4.GOoGLE.cOM.
+google.com.     124333  IN  NS  ns1.GOoGLE.cOM.
+google.com.     124333  IN  NS  ns3.GOoGLE.cOM.
+google.com.     124333  IN  NS  ns2.GOoGLE.cOM.
+
+;; ADDITIONAL SECTION:
+ns1.google.com.     300146  IN  A   216.239.32.10
+ns1.google.com.     308505  IN  AAAA    2001:4860:4802:32::a
+ns2.google.com.     303470  IN  A   216.239.34.10
+ns2.google.com.     124333  IN  AAAA    2001:4860:4802:34::a
+ns3.google.com.     303470  IN  A   216.239.36.10
+ns3.google.com.     124333  IN  AAAA    2001:4860:4802:36::a
+ns4.google.com.     302836  IN  A   216.239.38.10
+ns4.google.com.     302716  IN  AAAA    2001:4860:4802:38::a
+
+;; Query time: 68 msec
+;; SERVER: 192.5.6.30#53(192.5.6.30)
+;; WHEN: Mon Sep 03 19:23:20 EST 2018
+;; MSG SIZE  rcvd: 287

@@ -1,0 +1,24 @@
+
+; <<>> DiG 9.11.3-1ubuntu1.7-Ubuntu <<>> @8.8.8.8 www.cnn.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50831
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;www.cnn.com.                   IN      A
+
+;; ANSWER SECTION:
+www.cnn.com.            261     IN      CNAME   turner-tls.map.fastly.net.
+turner-tls.map.fastly.net. 29   IN      A       151.101.1.67
+turner-tls.map.fastly.net. 29   IN      A       151.101.65.67
+turner-tls.map.fastly.net. 29   IN      A       151.101.129.67
+turner-tls.map.fastly.net. 29   IN      A       151.101.193.67
+
+;; Query time: 24 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Tue Nov 26 07:52:03 STD 2019
+;; MSG SIZE  rcvd: 143
