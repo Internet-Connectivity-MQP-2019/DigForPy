@@ -31,4 +31,4 @@ jobs:
         with:
           to: ${{ secrets.telegram_chat }}
           token: ${{ secrets.telegram_token }}
-          args: ${{ job.status }}
+          args: "DigForPy: ${{ job.status }}"
